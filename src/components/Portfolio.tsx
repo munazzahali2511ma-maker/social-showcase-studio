@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const portfolioItems = [
   {
     id: 1,
-    title: "E-commerce Brand Launch",
+    title: "Creative Agency",
     category: "Instagram & Facebook",
     description: "Complete social media strategy resulting in 300% follower growth in 3 months",
     metrics: "300% Growth",
