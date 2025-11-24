@@ -36,7 +36,7 @@ const Contact = () => {
           <div className="grid md:grid-cols-3 gap-6 pt-12">
             <div className="space-y-2">
               <div className="text-sm font-medium text-muted-foreground">Email</div>
-              <div className="text-foreground">hello@portfolio.com</div>
+              <div className="text-foreground">munazzah.work@gmail.com</div>
             </div>
             <div className="space-y-2">
               <div className="text-sm font-medium text-muted-foreground">Phone</div>

@@ -27,7 +27,7 @@ const Hero = () => {
               View My Work
             </Button>
             <Button size="lg" variant="outline" className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all" asChild>
-              <a href="mailto:hello@portfolio.com">Get In Touch</a>
+              <a href="mailto:munazzah.work@gmail.com">Get In Touch</a>
             </Button>
           </div>
 
