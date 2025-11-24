@@ -10,7 +10,7 @@ const portfolioItems = [
   },
   {
     id: 2,
-    title: "Tech Startup Campaign",
+    title: "Therapy Talks ",
     category: "LinkedIn & Twitter",
     description: "B2B lead generation campaign generating 150+ qualified leads",
     metrics: "150+ Leads",
