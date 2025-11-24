@@ -26,8 +26,8 @@ const Hero = () => {
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all">
               View My Work
             </Button>
-            <Button size="lg" variant="outline" className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all">
-              Get In Touch
+            <Button size="lg" variant="outline" className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all" asChild>
+              <a href="mailto:hello@portfolio.com">Get In Touch</a>
             </Button>
           </div>
 
