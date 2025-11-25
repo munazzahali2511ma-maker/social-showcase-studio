@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import saskaSolutionsFeed from "@/assets/saska-solutions-feed.jpg";
 import therapistTalksFeed from "@/assets/therapist-talks-feed.jpg";
+import scentioPkFeed from "@/assets/scentio-pk-feed.png";
 
 const portfolioItems = [
   {
@@ -19,10 +20,10 @@ const portfolioItems = [
   },
   {
     id: 3,
-    title: "Client Name 3",
-    services: "Reel Covers, Highlight Covers, Post Design",
-    description: "Designed eye-catching reel covers and Instagram highlight covers that unified their feed aesthetic and increased profile visits.",
-    image: "/placeholder.svg",
+    title: "Scentio PK",
+    services: "Instagram Feed Redesign & Content Creation",
+    description: "Transformed a basic Instagram presence into a visually stunning aesthetic showcase. Created compelling product-focused content highlighting candle features and qualities, combined with trending interactive posts to boost customer engagement.",
+    image: scentioPkFeed,
   },
   {
     id: 4,
