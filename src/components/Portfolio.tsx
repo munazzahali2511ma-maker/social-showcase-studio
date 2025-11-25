@@ -1,12 +1,13 @@
 import { Card, CardContent } from "@/components/ui/card";
+import saskaSolutionsFeed from "@/assets/saska-solutions-feed.jpg";
 
 const portfolioItems = [
   {
     id: 1,
-    title: "Client Name 1",
-    services: "Logo Design, Brand Kit, Social Media Posts",
-    description: "Created a cohesive brand identity with custom logo, brand guidelines, and engaging social media content that elevated their online presence.",
-    image: "/placeholder.svg",
+    title: "SASKA SOLUTIONS",
+    services: "Social Media Feed Design & Content Strategy",
+    description: "Designed an aesthetically cohesive Instagram feed aligned with brand identity. Created strategic content showcasing services, valuable insights, and client-focused messaging to establish a strong digital presence.",
+    image: saskaSolutionsFeed,
   },
   {
     id: 2,
