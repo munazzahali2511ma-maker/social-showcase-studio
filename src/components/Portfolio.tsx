@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import saskaSolutionsFeed from "@/assets/saska-solutions-feed.jpg";
+import therapistTalksFeed from "@/assets/therapist-talks-feed.jpg";
 
 const portfolioItems = [
   {
@@ -11,10 +12,10 @@ const portfolioItems = [
   },
   {
     id: 2,
-    title: "Client Name 2",
-    services: "Content Creation, Carousel Posts, Story Design",
-    description: "Developed compelling visual content including carousel posts and story templates that boosted engagement and brand consistency.",
-    image: "/placeholder.svg",
+    title: "Therapist Talks",
+    services: "Logo Design, Brand Kit, Instagram Feed Design",
+    description: "Developed a complete brand identity from the ground up, including a custom logo and comprehensive brand guidelines. Curated an engaging Instagram feed that authentically represents the therapist's practice while delivering informational and interactive mental health content.",
+    image: therapistTalksFeed,
   },
   {
     id: 3,
