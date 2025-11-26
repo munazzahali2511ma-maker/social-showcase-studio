@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import saskaSolutionsFeed from "@/assets/saska-solutions-feed.jpg";
 import therapistTalksFeed from "@/assets/therapist-talks-feed.jpg";
 import scentioPkFeed from "@/assets/scentio-pk-feed.png";
+import healingWithFizzaFeed from "@/assets/healing-with-fizza-feed.jpg";
 
 const portfolioItems = [
   {
@@ -13,7 +14,7 @@ const portfolioItems = [
   },
   {
     id: 2,
-    title: "Therapist Talks",
+    title: "Therapy Talks",
     services: "Logo Design, Brand Kit, Instagram Feed Design",
     description: "Developed a complete brand identity from the ground up, including a custom logo and comprehensive brand guidelines. Curated an engaging Instagram feed that authentically represents the therapist's practice while delivering informational and interactive mental health content.",
     image: therapistTalksFeed,
@@ -27,10 +28,10 @@ const portfolioItems = [
   },
   {
     id: 4,
-    title: "Client Name 4",
-    services: "Complete Brand Package, Social Media Management",
-    description: "Provided end-to-end design services from brand creation to daily content management across multiple platforms.",
-    image: "/placeholder.svg",
+    title: "Healing with Fizza",
+    services: "Complete Profile Transformation, Content Strategy & Production, Brand Identity",
+    description: "Revitalized a disorganized Instagram presence with strategic direction and cohesive branding. Crafted and produced meaningful content including reels, carousels, and static posts that significantly increased reach and engagement. Conducted comprehensive profile audit, refined bio, and established an approachable color theme. Also designed professional business cards to complete the brand identity.",
+    image: healingWithFizzaFeed,
   },
 ];
 
