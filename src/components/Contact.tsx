@@ -40,11 +40,11 @@ const Contact = () => {
             </div>
             <div className="space-y-2">
               <div className="text-sm font-medium text-muted-foreground">Phone</div>
-              <div className="text-foreground">+1 (555) 123-4567</div>
+              <div className="text-foreground">0318-3301397</div>
             </div>
             <div className="space-y-2">
               <div className="text-sm font-medium text-muted-foreground">Location</div>
-              <div className="text-foreground">New York, USA</div>
+              <div className="text-foreground">Karachi, Pakistan</div>
             </div>
           </div>
         </div>
