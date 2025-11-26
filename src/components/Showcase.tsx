@@ -4,6 +4,10 @@ import carouselHealingFizza from "@/assets/carousel-healing-fizza.png";
 import carouselSaska from "@/assets/carousel-saska.png";
 import carouselTherapyTalks from "@/assets/carousel-therapy-talks.png";
 import carouselScentio from "@/assets/carousel-scentio.png";
+import reelCoverScentio1 from "@/assets/reel-cover-scentio-1.png";
+import reelCoverScentio2 from "@/assets/reel-cover-scentio-2.png";
+import reelCoverHealingFizza from "@/assets/reel-cover-healing-fizza.png";
+import reelCoverClientHumor from "@/assets/reel-cover-client-humor.png";
 
 const showcaseCategories = {
   carousels: [
@@ -13,10 +17,10 @@ const showcaseCategories = {
     { id: 4, image: carouselScentio, title: "Scentio PK - Product Showcase" },
   ],
   reelCovers: [
-    { id: 1, image: "/placeholder.svg", title: "Reel Cover 1" },
-    { id: 2, image: "/placeholder.svg", title: "Reel Cover 2" },
-    { id: 3, image: "/placeholder.svg", title: "Reel Cover 3" },
-    { id: 4, image: "/placeholder.svg", title: "Reel Cover 4" },
+    { id: 1, image: reelCoverScentio1, title: "Scentio PK - Candle Aesthetic Comparison" },
+    { id: 2, image: reelCoverScentio2, title: "Scentio PK - POV Candle Discovery" },
+    { id: 3, image: reelCoverHealingFizza, title: "Healing with Fizza - Mental Health Tips" },
+    { id: 4, image: reelCoverClientHumor, title: "Behind the Scenes - Client Revisions" },
   ],
   stories: [
     { id: 1, image: "/placeholder.svg", title: "Story Design 1" },
