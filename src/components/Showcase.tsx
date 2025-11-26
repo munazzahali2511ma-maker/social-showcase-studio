@@ -1,12 +1,16 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent } from "@/components/ui/card";
+import carouselHealingFizza from "@/assets/carousel-healing-fizza.png";
+import carouselSaska from "@/assets/carousel-saska.png";
+import carouselTherapyTalks from "@/assets/carousel-therapy-talks.png";
+import carouselScentio from "@/assets/carousel-scentio.png";
 
 const showcaseCategories = {
   carousels: [
-    { id: 1, image: "/placeholder.svg", title: "Carousel Post 1" },
-    { id: 2, image: "/placeholder.svg", title: "Carousel Post 2" },
-    { id: 3, image: "/placeholder.svg", title: "Carousel Post 3" },
-    { id: 4, image: "/placeholder.svg", title: "Carousel Post 4" },
+    { id: 1, image: carouselHealingFizza, title: "Healing with Fizza - Self-Reflection Prompts" },
+    { id: 2, image: carouselSaska, title: "Saska Solutions - Problem to Solution Series" },
+    { id: 3, image: carouselTherapyTalks, title: "Therapy Talks - Educational Content" },
+    { id: 4, image: carouselScentio, title: "Scentio PK - Product Showcase" },
   ],
   reelCovers: [
     { id: 1, image: "/placeholder.svg", title: "Reel Cover 1" },
