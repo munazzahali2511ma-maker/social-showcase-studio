@@ -15,7 +15,7 @@ import reelClientHumor from "@/assets/reel-client-humor.mp4";
 import staticPostFizza from "@/assets/fizza-control-post.png";
 import staticPostTherapyTalks from "@/assets/therapy-talks-journal-post.png";
 import staticPostSaska from "@/assets/saska-new-look-post.png";
-import staticPostScentio from "@/assets/scentio-pk-feed.png";
+import staticPostTherapyTalksMythFact from "@/assets/therapy-talks-myth-fact.png";
 import storyScentioShop from "@/assets/story-scentio-shop.png";
 import storyNewPost from "@/assets/story-new-post.png";
 import storyCandleAesthetic from "@/assets/story-candle-aesthetic.png";
@@ -43,7 +43,7 @@ const showcaseCategories = {
     { id: 1, image: staticPostFizza, title: "Healing with Fizza - What I Can Control" },
     { id: 2, image: staticPostTherapyTalks, title: "Therapy Talks - Journaling Benefits" },
     { id: 3, image: staticPostSaska, title: "Saska Solutions - New Look Reveal" },
-    { id: 4, image: staticPostScentio, title: "Scentio PK - Product Showcase" },
+    { id: 4, image: staticPostTherapyTalksMythFact, title: "Therapy Talks - Myth vs Fact" },
   ],
   reels: [
     { id: 1, video: reelStressCheck, title: "Healing with Fizza - Stress Check" },
