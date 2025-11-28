@@ -12,9 +12,9 @@ import reelStressCheck from "@/assets/reel-stress-check.mp4";
 import reelPeony from "@/assets/reel-peony.mp4";
 import reelScentio from "@/assets/reel-scentio.mp4";
 import reelClientHumor from "@/assets/reel-client-humor.mp4";
-import staticPostFizza from "@/assets/healing-with-fizza-feed.jpg";
-import staticPostTherapyTalks from "@/assets/therapist-talks-feed.jpg";
-import staticPostSaska from "@/assets/saska-solutions-feed.jpg";
+import staticPostFizza from "@/assets/fizza-control-post.png";
+import staticPostTherapyTalks from "@/assets/therapy-talks-journal-post.png";
+import staticPostSaska from "@/assets/saska-new-look-post.png";
 import staticPostScentio from "@/assets/scentio-pk-feed.png";
 
 const showcaseCategories = {
@@ -37,10 +37,10 @@ const showcaseCategories = {
     { id: 4, image: "/placeholder.svg", title: "Story Design 4" },
   ],
   staticPosts: [
-    { id: 1, image: staticPostFizza, title: "Healing with Fizza - Control & Mental Health" },
+    { id: 1, image: staticPostFizza, title: "Healing with Fizza - What I Can Control" },
     { id: 2, image: staticPostTherapyTalks, title: "Therapy Talks - Journaling Benefits" },
-    { id: 3, image: staticPostSaska, title: "Saska Solutions - Logo Redesign" },
-    { id: 4, image: staticPostScentio, title: "Therapy Talks - Myth vs Fact" },
+    { id: 3, image: staticPostSaska, title: "Saska Solutions - New Look Reveal" },
+    { id: 4, image: staticPostScentio, title: "Scentio PK - Product Showcase" },
   ],
   reels: [
     { id: 1, video: reelStressCheck, title: "Healing with Fizza - Stress Check" },
