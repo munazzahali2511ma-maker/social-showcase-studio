@@ -3,23 +3,16 @@ import { Card, CardContent } from "@/components/ui/card";
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    role: "CEO, TechFlow",
-    content: "Working with them transformed our social media presence. We saw a 300% increase in engagement within the first quarter. Their strategic approach and creativity are unmatched.",
+    name: "Therapy Talks",
+    role: "Mental Health Page",
+    content: "Working with Munazzah was a smooth and creative experience. She helped me choose the perfect theme, color palette, and overall look for my page. Her honest opinions, thoughtful ideas, and attention to detail transformed my vision into a beautifully built page.",
     rating: 5,
   },
   {
     id: 2,
-    name: "Michael Chen",
-    role: "Marketing Director, StyleHub",
-    content: "The ROI on our social media campaigns has exceeded all expectations. Professional, creative, and always delivers on time. Highly recommend!",
-    rating: 5,
-  },
-  {
-    id: 3,
-    name: "Emily Rodriguez",
-    role: "Founder, GreenLife",
-    content: "Their understanding of our brand and target audience is exceptional. They don't just post content—they tell our story in a way that resonates with our customers.",
+    name: "Healing with Fizza",
+    role: "Counselling Page",
+    content: "Just wanted to appreciate the person behind my counselling page who keeps everything running so smoothly. From creating warm, helpful content to keeping the page active and consistent — you've been truly wonderful. Thank you for understanding my work, my style, and supporting me so well. Couldn't have managed the page this smoothly without you 🤍",
     rating: 5,
   },
 ];
@@ -37,7 +30,7 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {testimonials.map((testimonial, index) => (
             <Card 
               key={testimonial.id}
