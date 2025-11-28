@@ -16,7 +16,10 @@ import staticPostFizza from "@/assets/fizza-control-post.png";
 import staticPostTherapyTalks from "@/assets/therapy-talks-journal-post.png";
 import staticPostSaska from "@/assets/saska-new-look-post.png";
 import staticPostScentio from "@/assets/scentio-pk-feed.png";
-
+import storyScentioShop from "@/assets/story-scentio-shop.png";
+import storyNewPost from "@/assets/story-new-post.png";
+import storyCandleAesthetic from "@/assets/story-candle-aesthetic.png";
+import storyScentioEvening from "@/assets/story-scentio-evening.png";
 const showcaseCategories = {
   carousels: [
     { id: 1, image: carouselHealingFizza, title: "Healing with Fizza - Self-Reflection Prompts" },
@@ -31,10 +34,10 @@ const showcaseCategories = {
     { id: 4, image: reelCoverClientHumor, title: "Behind the Scenes - Client Revisions" },
   ],
   stories: [
-    { id: 1, image: "/placeholder.svg", title: "Story Design 1" },
-    { id: 2, image: "/placeholder.svg", title: "Story Design 2" },
-    { id: 3, image: "/placeholder.svg", title: "Story Design 3" },
-    { id: 4, image: "/placeholder.svg", title: "Story Design 4" },
+    { id: 1, image: storyScentioShop, title: "Scentio PK - Shop Now Story" },
+    { id: 2, image: storyNewPost, title: "New Post Announcement Story" },
+    { id: 3, image: storyCandleAesthetic, title: "Scentio PK - Candle Aesthetic" },
+    { id: 4, image: storyScentioEvening, title: "Scentio PK - Evening Ambiance" },
   ],
   staticPosts: [
     { id: 1, image: staticPostFizza, title: "Healing with Fizza - What I Can Control" },
