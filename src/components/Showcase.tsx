@@ -22,34 +22,94 @@ import storyCandleAesthetic from "@/assets/story-candle-aesthetic.png";
 import storyScentioEvening from "@/assets/story-scentio-evening.png";
 const showcaseCategories = {
   carousels: [
-    { id: 1, image: carouselHealingFizza, title: "Healing with Fizza - Self-Reflection Prompts" },
-    { id: 2, image: carouselSaska, title: "Saska Solutions - Problem to Solution Series" },
-    { id: 3, image: carouselTherapyTalks, title: "Therapy Talks - Educational Content" },
+    {
+      id: 1,
+      image: carouselHealingFizza,
+      title: "Healing with Fizza - Self-Reflection Prompts",
+    },
+    {
+      id: 2,
+      image: carouselSaska,
+      title: "Saska Solutions - Problem to Solution Series",
+    },
+    {
+      id: 3,
+      image: carouselTherapyTalks,
+      title: "Therapy Talks - Educational Content",
+    },
     { id: 4, image: carouselScentio, title: "Scentio PK - Product Showcase" },
   ],
   reelCovers: [
-    { id: 1, image: reelCoverScentio1, title: "Scentio PK - Candle Aesthetic Comparison" },
-    { id: 2, image: reelCoverScentio2, title: "Scentio PK - POV Candle Discovery" },
-    { id: 3, image: reelCoverHealingFizza, title: "Healing with Fizza - Mental Health Tips" },
-    { id: 4, image: reelCoverClientHumor, title: "Behind the Scenes - Client Revisions" },
+    {
+      id: 1,
+      image: reelCoverScentio1,
+      title: "Scentio PK - Candle Aesthetic Comparison",
+    },
+    {
+      id: 2,
+      image: reelCoverScentio2,
+      title: "Scentio PK - POV Candle Discovery",
+    },
+    {
+      id: 3,
+      image: reelCoverHealingFizza,
+      title: "Healing with Fizza - Mental Health Tips",
+    },
+    {
+      id: 4,
+      image: reelCoverClientHumor,
+      title: "Behind the Scenes - Client Revisions",
+    },
   ],
   stories: [
     { id: 1, image: storyScentioShop, title: "Scentio PK - Shop Now Story" },
     { id: 2, image: storyNewPost, title: "New Post Announcement Story" },
-    { id: 3, image: storyCandleAesthetic, title: "Scentio PK - Candle Aesthetic" },
-    { id: 4, image: storyScentioEvening, title: "Scentio PK - Evening Ambiance" },
+    {
+      id: 3,
+      image: storyCandleAesthetic,
+      title: "Scentio PK - Candle Aesthetic",
+    },
+    {
+      id: 4,
+      image: storyScentioEvening,
+      title: "Scentio PK - Evening Ambiance",
+    },
   ],
   staticPosts: [
-    { id: 1, image: staticPostFizza, title: "Healing with Fizza - What I Can Control" },
-    { id: 2, image: staticPostTherapyTalks, title: "Therapy Talks - Journaling Benefits" },
-    { id: 3, image: staticPostSaska, title: "Saska Solutions - New Look Reveal" },
-    { id: 4, image: staticPostTherapyTalksMythFact, title: "Therapy Talks - Myth vs Fact" },
+    {
+      id: 1,
+      image: staticPostFizza,
+      title: "Healing with Fizza - What I Can Control",
+    },
+    {
+      id: 2,
+      image: staticPostTherapyTalks,
+      title: "Therapy Talks - Journaling Benefits",
+    },
+    {
+      id: 3,
+      image: staticPostSaska,
+      title: "Saska Solutions - New Look Reveal",
+    },
+    {
+      id: 4,
+      image: staticPostTherapyTalksMythFact,
+      title: "Therapy Talks - Myth vs Fact",
+    },
   ],
   reels: [
-    { id: 1, video: reelStressCheck, title: "Healing with Fizza - Stress Check" },
+    {
+      id: 1,
+      video: reelStressCheck,
+      title: "Healing with Fizza - Stress Check",
+    },
     { id: 2, video: reelPeony, title: "Scentio PK - Peony Candle Showcase" },
     { id: 3, video: reelScentio, title: "Scentio PK - Product Aesthetic" },
-    { id: 4, video: reelClientHumor, title: "Behind the Scenes - Client Communication" },
+    {
+      id: 4,
+      video: reelClientHumor,
+      title: "Behind the Scenes - Client Communication",
+    },
   ],
 };
 
@@ -58,36 +118,64 @@ const Showcase = () => {
     <section className="py-20 bg-background" id="showcase">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 mb-16 animate-slide-up">
-          <h2 className="text-4xl md:text-5xl font-bold">
-            Work Showcase
-          </h2>
+          <h2 className="text-4xl md:text-5xl font-bold">Work Showcase</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Explore different types of content I create for social media
           </p>
         </div>
 
         <Tabs defaultValue="carousels" className="max-w-7xl mx-auto">
-          <TabsList className="grid w-full grid-cols-5 mb-12 h-auto flex-wrap">
-            <TabsTrigger value="carousels" className="text-sm md:text-base">Carousel Posts</TabsTrigger>
-            <TabsTrigger value="reelCovers" className="text-sm md:text-base">Reel Covers</TabsTrigger>
-            <TabsTrigger value="stories" className="text-sm md:text-base">Stories</TabsTrigger>
-            <TabsTrigger value="staticPosts" className="text-sm md:text-base">Static Posts</TabsTrigger>
-            <TabsTrigger value="reels" className="text-sm md:text-base">Reels</TabsTrigger>
+          <TabsList className="md:grid md:grid-cols-5 flex flex-nowrap md:flex-wrap w-full mb-12 h-auto overflow-x-auto no-scrollbar">
+            <TabsTrigger
+              value="carousels"
+              className="text-sm md:text-base"
+            >
+              Carousel Posts
+            </TabsTrigger>
+            <TabsTrigger
+              value="reelCovers"
+              className="text-sm md:text-base"
+            >
+              Reel Covers
+            </TabsTrigger>
+            <TabsTrigger
+              value="stories"
+              className="text-sm md:text-base"
+            >
+              Stories
+            </TabsTrigger>
+            <TabsTrigger
+              value="staticPosts"
+              className="text-sm md:text-base"
+            >
+              Static Posts
+            </TabsTrigger>
+            <TabsTrigger
+              value="reels"
+              className="text-sm md:text-base"
+            >
+              Reels
+            </TabsTrigger>
           </TabsList>
 
           <TabsContent value="carousels" className="animate-fade-in">
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {showcaseCategories.carousels.map((item) => (
-                <Card key={item.id} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden">
+                <Card
+                  key={item.id}
+                  className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden"
+                >
                   <div className="aspect-square bg-muted overflow-hidden">
-                    <img 
-                      src={item.image} 
+                    <img
+                      src={item.image}
                       alt={item.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
                   <CardContent className="p-4">
-                    <p className="text-sm font-medium text-center">{item.title}</p>
+                    <p className="text-sm font-medium text-center">
+                      {item.title}
+                    </p>
                   </CardContent>
                 </Card>
               ))}
@@ -97,16 +185,21 @@ const Showcase = () => {
           <TabsContent value="reelCovers" className="animate-fade-in">
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {showcaseCategories.reelCovers.map((item) => (
-                <Card key={item.id} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden">
+                <Card
+                  key={item.id}
+                  className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden"
+                >
                   <div className="aspect-[9/16] bg-muted overflow-hidden">
-                    <img 
-                      src={item.image} 
+                    <img
+                      src={item.image}
                       alt={item.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
                   <CardContent className="p-4">
-                    <p className="text-sm font-medium text-center">{item.title}</p>
+                    <p className="text-sm font-medium text-center">
+                      {item.title}
+                    </p>
                   </CardContent>
                 </Card>
               ))}
@@ -116,16 +209,21 @@ const Showcase = () => {
           <TabsContent value="stories" className="animate-fade-in">
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {showcaseCategories.stories.map((item) => (
-                <Card key={item.id} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden">
+                <Card
+                  key={item.id}
+                  className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden"
+                >
                   <div className="aspect-[9/16] bg-muted overflow-hidden">
-                    <img 
-                      src={item.image} 
+                    <img
+                      src={item.image}
                       alt={item.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
                   <CardContent className="p-4">
-                    <p className="text-sm font-medium text-center">{item.title}</p>
+                    <p className="text-sm font-medium text-center">
+                      {item.title}
+                    </p>
                   </CardContent>
                 </Card>
               ))}
@@ -135,16 +233,21 @@ const Showcase = () => {
           <TabsContent value="staticPosts" className="animate-fade-in">
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {showcaseCategories.staticPosts.map((item) => (
-                <Card key={item.id} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden">
+                <Card
+                  key={item.id}
+                  className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden"
+                >
                   <div className="aspect-square bg-muted overflow-hidden">
-                    <img 
-                      src={item.image} 
+                    <img
+                      src={item.image}
                       alt={item.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
                   <CardContent className="p-4">
-                    <p className="text-sm font-medium text-center">{item.title}</p>
+                    <p className="text-sm font-medium text-center">
+                      {item.title}
+                    </p>
                   </CardContent>
                 </Card>
               ))}
@@ -154,17 +257,22 @@ const Showcase = () => {
           <TabsContent value="reels" className="animate-fade-in">
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {showcaseCategories.reels.map((item) => (
-                <Card key={item.id} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden">
+                <Card
+                  key={item.id}
+                  className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden"
+                >
                   <div className="aspect-[9/16] bg-muted overflow-hidden">
-                    <video 
-                      src={item.video} 
+                    <video
+                      src={item.video}
                       className="w-full h-full object-cover"
                       controls
                       playsInline
                     />
                   </div>
                   <CardContent className="p-4">
-                    <p className="text-sm font-medium text-center">{item.title}</p>
+                    <p className="text-sm font-medium text-center">
+                      {item.title}
+                    </p>
                   </CardContent>
                 </Card>
               ))}
